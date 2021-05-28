@@ -1,0 +1,17 @@
+#data-root {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.data-item {
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+
+

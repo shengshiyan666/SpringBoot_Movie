@@ -1,0 +1,88 @@
+#login-root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+    height: 100vh;
+
+}
+
+#et-user-name {
+
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    line-height: 45px;
+    margin: 10px 20px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #eee;
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+
+
+#et-password {
+
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    line-height: 45px;
+    margin: 10px 20px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #eee;
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+
+
+input {
+    font-size: 0.9rem;
+    outline-style: none;
+    border: 0px;
+}
+
+#input-title-text {
+    color: black;
+    font-size: 1.0rem;
+    font-weight: 800;
+    text-align: center;
+    width: 15%;
+}
+
+#btn-login {
+    color: white;
+    margin: 20px auto;
+    text-align: center;
+    background: cornflowerblue;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+}
+
+#comment-title {
+    margin: 10px;
+    font-size: 1.2rem;
+}
+
+#comment-view-item {
+    margin: 5px;
+    padding: 10px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#btn-comment {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 60px;
+    width: 60px;
+    color: white;
+    background: #2ab9ff;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 30px;
+}

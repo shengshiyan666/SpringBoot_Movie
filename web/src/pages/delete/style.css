@@ -1,0 +1,82 @@
+#delete-root {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#search-key-word {
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    line-height: 45px;
+    margin-bottom: 0px;
+    border-bottom: 2px solid #eee;
+    margin-top: 20px;
+    background: transparent;
+}
+
+#btn-search {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: 20px;
+    background: deepskyblue;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+}
+
+#search-reslut-movie-item {
+    margin-top: 5px;
+    display: flex;
+    background: white;
+    padding: 10px;
+    flex-direction: row;
+}
+
+#search-movie-img {
+    height: 100px;
+    width: 80px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#search-movie-info {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+#search-movie-title {
+    color: black;
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.delete-movie {
+    color: cornflowerblue;
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+#search-movie-desc {
+    margin-top: 5px;
+    font-size: 0.8rem;
+    color: #666666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+#search-movie-price {
+    margin-top: 5px;
+    color: red;
+    margin-right: 20px;
+    margin-left: auto;
+}
