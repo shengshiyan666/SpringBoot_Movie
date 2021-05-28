@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Movie</string>
+
+    <string name="app_info">在线电影售票系统</string>
+</resources>
